@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>signin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      body {font-family: Arial, Helvetica, sans-serif;}
+      form {border: 1px solid #f1f1f1;}
+
+      input[type=email], input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+      }
+
+      input[type=email]:focus,input[type=password]:focus {
+        background-color: #ddd;
+        outline: none;
+      }
+
+      button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100px;
+        opacity: 0.9;
+      }
+
+      button:hover {
+        opacity: 1;
+      }
+      hr {
+        border: 1px solid #f1f1f1;
+        margin-bottom: 25px;
+      }
+      .cancelbtn {
+        width: auto;
+        padding: 10px 18px;
+        background-color: #f44336;
+        margin-left: 5px;
+      }
+
+      .imgcontainer {
+        text-align: center;
+        margin: 24px 0 12px 0;
+      }
+
+      img {
+        border-radius:  50%;
+      }
+
+      .modal-content {
+        background-color: #fefefe;
+        margin: 5% auto 5% auto; /* 5% from the top, 5% from the bottom and centered */
+        border: 1px solid #888;
+        width: 80%; /* Could be more or less, depending on screen size */
+      }
+
+      .container {
+        padding: 16px;
+
+      }
+
+      span.psw {
+        float: right;
+        padding-top: 16px;
+        margin-right: 5px;
+      }
+
+      .bg-image{
+        background-image: url("bg.jpg");
+        /* center and scale the image nicely*/
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        height: 900px;
+      }
+      /* Clear floats */
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      /* Change styles for span and cancel button on extra small screens */
+      @media screen and (max-width: 300px) {
+        span.psw {
+           display: block;
+           float: none;
+        }
+        .cancelbtn {
+           width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg-image"><br>  
+      <form class="modal-content" action="main.html" >
+        <div class="container">
+          <div class="imgcontainer">
+            <img src="logo.jpg" alt="education" width="100px" height="100px">
+          </div>
+          <h2 align="left">Login Form</h2>
+          <p>Please fill correct email and password to hop in.</p>
+          <hr>
+          <label for="uname"><b>Email</b></label>
+          <input type="email" placeholder="Enter Email" name="uname" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+          <label>
+            <input type="checkbox" name="remember"> Remember me
+          </label><br>
+          <p align="center" class="clearfix"><button type="submit">Login</button></p>
+        </div>
+        <div class="container1" style="background-color:#f1f1f1">
+          <button type="reset" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form><br>
+    </div>
+  </body>
+</html>

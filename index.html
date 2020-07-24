@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>intro</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      body {font-family: "Lato", sans-serif}
+      .mySlides {display: none}
+    </style>
+  </head>
+  <body class="w3-content" style="max-width:1300px">
+
+    <!-- Navbar -->
+    <div class="w3-top w3-row">
+      <div class="w3-bar w3-black w3-card">
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+        <a href="#vision" class="w3-bar-item w3-button w3-padding-large w3-hide-small">VISION</a>
+        <a href="#goal" class="w3-bar-item w3-button w3-padding-large w3-hide-small">GOAL</a>
+        <a href="#price" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PRICE</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+        <a href="signup.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SIGN UP</a>
+        <a href="signin.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SIGN IN</a>
+      </div>
+    </div>
+
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+      <a href="signin.html" class="w3-bar-item w3-button w3-padding-large" >SIGN IN</a>
+      <a href="signup.html" class="w3-bar-item w3-button w3-padding-large" >SIGN UP</a>
+      <a href="#vision" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">VISION</a>
+      <a href="#goal" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">GOAL</a>
+      <a href="#price" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PRICE</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+    </div>
+
+    <!-- img content -->
+    <div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+      <!-- Automatic Slideshow Images -->
+      <div class="mySlides w3-display-container w3-center">
+        <img src="study.jpg" style="width:100%;">
+        <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+          <h3>Learning</h3>
+          <p><b>Every day teaches a new thing.</b></p>    
+        </div>
+      </div>
+      <div class="mySlides w3-display-container w3-center">
+        <img src="brain.jpg" style="width:100%">
+        <div class="w3-display-bottommiddle w3-container w3-text-black w3-padding-32 w3-hide-small">
+          <h3>Knowledge</h3>
+          <p><b>Knowledge is power.</b></p>    
+        </div>
+      </div>
+
+    <!-- First Grid: Logo & About -->
+    <div class="w3-row">
+      <div class="w3-half w3-black w3-container w3-center" style="height:700px" id="aboutus">
+        <div class="w3-padding-64">
+          <h1>About us</h1>
+          <p>Team work is better than Hardwork.</p>
+          <img src="about.jpg" class="w3-margin w3-circle" alt="Person" style="width:50%">
+          <div class="w3-left-align w3-padding-large">
+            <p>Hey!! flyer. we are credorions formed in a thought of uplifting the future generations.</p>
+            <p>Learning and implementing matters. we are planning to give a quality education.</p>
+            <p>Students are not aware of the practical applications. we are here to provide a platform to students which is filled with full of videos, social awareness videos,games,fun activities etc.</p>
+          </div>
+        </div>
+      </div>
+      <div class="w3-half w3-blue-grey w3-container" style="height:700px" id="vision">
+        <div class="w3-padding-64 w3-center">
+          <h1>Vision</h1>
+          <p>There is always a difference between studying and learning.</p>
+          <img src="vision.png" class="w3-margin w3-circle" alt="Person" style="width:50%">
+          <div class="w3-left-align w3-padding-large">
+            <p>Our vision is to provide a quality education at an affordable cost to the students.</p>
+            <p>Knowledge can never be destroyed. Our ultimate aim is to provide students with knowledge in their own interest.</p>
+            <p>No one can stop anyone from learning. like wise the students will be provided with enormous videos. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second Grid: goal & price -->
+    <div class="w3-row">
+      <div class="w3-half w3-light-grey w3-center" style="min-height:800px" id="goal">
+        <div class="w3-padding-64">
+          <h2>GOALS</h2>
+          <p>True success is all about working towards meaningful goals and dreams.</p><br>
+          <img src="goal.jpg" class="w3-margin w3-circle" alt="goal" style="width:50%">
+          <div class="w3-left-align w3-padding-large">
+            <p>Our goal is to make student shine in their life.</p>
+            <p>Many of them are struggling to reach success. we provide all facilities for achieving strdents dream </p>
+            <p>We also focus on making them a good soulful person by providing them moral value videos.</p>
+            <p>To make a better society the students are taught with bascis of medical knowledge.</p> 
+
+          </div>
+        </div>
+      </div>
+      <div class="w3-half w3-indigo w3-container" style="max-height:800px">
+        <div class="w3-padding-64 w3-center" id="price">
+          <h2>Price</h2>
+          <p>A single payment is made valid for one full year and no additional charges for any events conducted by FLYING MINDS.</p>
+          <div class="w3-container w3-responsive">
+            
+            <div class="w3-row-padding">
+              <div class=" w3-margin-bottom">
+                <ul class="w3-ul w3-light-grey w3-center">
+                  <li class="w3-dark-grey w3-xlarge w3-padding-32">All grades</li>
+                  <li class="w3-padding-16">practical knowlege of subjects</li>
+                  <li class="w3-padding-16">Social awareness videos</li>
+                  <li class="w3-padding-16">games, fun activities & scores</li>
+                  <li class="w3-padding-16">Gift coupons</li>
+                  <li class="w3-padding-16">
+                    <h2>1000 rupees</h2>
+                    <span class="w3-opacity">per year</span>
+                  </li>
+                  <li class="w3-light-grey w3-padding-24">
+                    <a href="signup.html"><button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button></a>
+                  </li>
+                </ul>
+              </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Third Grid: Swing By & Contact -->
+    <div class="w3-row">
+      <div class="w3-half w3-dark-grey w3-container w3-center" style="height:700px" id="contact">
+        <div class="w3-padding-64">
+          <h1>Swing By</h1>
+          <img src="location.jpg" class="w3-margin w3-circle" style="width:50%">
+          <p>Chennai,Tamilnadu</p>
+          <p>INDIA</p>
+          <p>+91 8056139677</p>
+          <p>flyingminds@gmail.com</p>
+          <br>
+            <a href="https://www.facebook.com/flyingminds.flyingminds"><i class="fa fa-facebook-official w3-hover-opacity w3-large"></i></a>
+            <a href="https://www.instagram.com/invites/contact/?i=129shoomonoh7&utm_content=h9gpnbg"><i class="fa fa-instagram w3-hover-opacity w3-large">s</i></a>
+            <a href="https://www.youtube.com/channel/UChMc7qRXWCoFnhEp2_6oQ1w"><i class="fa fa-youtube w3-hover-opacity w3-large"></i></a>
+            
+        </div>
+      </div>
+      <div class="w3-half w3-teal w3-container" style="height:700px">
+        <div class="w3-padding-64 w3-padding-large">
+          <h1>Contact</h1>
+          <p class="w3-opacity">GET IN TOUCH</p>
+          <form class="w3-container w3-card w3-padding-32 w3-white" action="/action_page.php" target="_blank">
+            <div class="w3-section">
+              <label>Name</label>
+              <input class="w3-input" style="width:100%;" type="text" required name="Name">
+            </div>
+            <div class="w3-section">
+              <label>Email</label>
+              <input class="w3-input" style="width:100%;" type="text" required name="Email">
+            </div>
+            <div class="w3-section">
+              <label>Message</label>
+              <input class="w3-input" style="width:100%;" type="text" required name="Message">
+            </div>
+            <button type="submit" class="w3-button w3-teal w3-right">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script>
+      // Automatic Slideshow - change image every 4 seconds
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 4000);    
+      }
+
+      // Used to toggle the menu on small screens when clicking on the menu button
+      function myFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else { 
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+    </script>
+  </body>
+</html>
